@@ -1,5 +1,5 @@
 import React from 'react'
 
-const TodoItem = () => (
-  {/* TODO */}
+export const TodoItem = ({ idx, item }) => (
+  <li key={idx}>{item}</li>
 )
